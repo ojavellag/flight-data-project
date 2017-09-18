@@ -16,7 +16,7 @@ import ast
 def readPlaneData(DataFileName):
     ff=os.getcwd()+ '/'
     print("the source folder is "+ff)
-    dataF = "../DataSets/"+DataFileName    
+    dataF = DataFileName    
     existFile=os.path.isfile(dataF)
     if existFile == True:
         print("The file "+DataFileName+" was found!")
